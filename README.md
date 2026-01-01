@@ -2,7 +2,7 @@
 
 An AI-powered system for detecting forklifts and classifying load status (LOADED/UNLOADED) using YOLOv8 object detection with video upload processing and CSV export capabilities.
 
-## Current Status (January 2025)
+## Current Status (December 2025)
 
 **✅ Working Features:**
 - Video upload and processing
@@ -90,6 +90,7 @@ An AI-powered system for detecting forklifts and classifying load status (LOADED
   ┌────▼─────────┐
   │  Web UI /    │
   │  CSV Export  │
+  |   Excel      |
   └──────────────┘
 ```
 
