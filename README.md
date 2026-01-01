@@ -47,8 +47,7 @@ An AI-powered system for detecting forklifts and classifying load status (LOADED
   - Confidence threshold: 0.20
   - Max tracking distance: 200 pixels
   - Max lost frames: 30
-  - Min detection count: 8
-- **Classification**: Majority voting across track lifetime
+  - **Classification**: Majority voting across track lifetime
 
 ---
 
