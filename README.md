@@ -210,25 +210,6 @@ MIN_DETECTION_COUNT = 8       # Min detections to create valid track
 **GET** `/api/events` - Get processed events from last video upload
 **GET** `/app` - Web interface
 
-### Video Processing
-
-**POST** `/api/upload-video` - Upload and process video file
-
-**Request:** multipart/form-data with `file` parameter
-
-**Response:**
-```json
-{
-  "success": true,
-  "filename": "test_video.mp4",
-  "file_id": "abc123",
-  "total_passes": 7,
-  "loaded_count": 5,
-  "unloaded_count": 2,
-  "events": [...]
-}
-```
-
 ### Export
 
 **GET** `/api/export/csv` - Export current events as CSV
