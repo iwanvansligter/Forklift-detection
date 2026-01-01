@@ -252,18 +252,6 @@ Track fragmentation can occur when:
 - **Fast Movement**: Forklift moves >200 pixels between frames
 - **Low Confidence**: Detection confidence temporarily drops below threshold
 
-**Example from logs:**
-```
-Track 1: 0.4s duration, 12 detections  ← Brief appearance
-Track 2: 0.3s duration, 9 detections   ← Possible false positive
-Track 3: 0.9s duration, 15 detections  ← Short track (re-entry?)
-Track 5: 45.7s duration, 1400 detections ← Main forklift track
-Track 6: 1.4s duration, 24 detections  ← Re-entering forklift
-Track 7: 4.6s duration, 89 detections  ← Secondary pass
-```
-
-To reduce fragmentation, adjust tracking parameters (see Configuration section above).
-
 ---
 
 ## Known Issues & Limitations
